@@ -156,7 +156,7 @@ function showResult(){
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
     else{ // if user scored less than or equal to 7
-        let scoreTag = '<span>and nice , You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>and sorry , You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
 }
